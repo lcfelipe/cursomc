@@ -11,7 +11,7 @@ import com.felipe.cursomc.domain.Produto;
 import com.felipe.cursomc.services.ProdutoService;
 
 @RestController
-@RequestMapping(value="/Produtos")
+@RequestMapping(value="/produtos")
 public class ProdutoResource {
 	
 	@Autowired
